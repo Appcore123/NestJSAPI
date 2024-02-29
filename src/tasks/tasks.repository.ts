@@ -12,6 +12,9 @@ export class TaskRepository extends Repository<TaskEntity> {
     const task = this.create({
       title,
       description,
+
+
+      
       
       status: TaskStatus.OPEN,
     });
