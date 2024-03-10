@@ -7,6 +7,7 @@ export class TaskEntity {
   id: string;
   @Column()
   title: string;
+  
   @Column()
   description: string;
   @Column()
